@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Khoa Thư Viện - Thông Tin Học</title>
+  <link rel="stylesheet" href="./trangchu.css">
+  <link rel="stylesheet" href="./font-awesome/css/all.css">
+  <link rel="icon" href="./background/logo.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <script src="./java/dương.js"></script>
+  <input type="checkbox" id="check"> <!--check box điều khiển đóng mở menu-->
+
+  <!--header area start-->
+  <header class="header">
+    <label for="check">
+      <i class="fas fa-bars" id="sidebar_btn"></i>
+    </label>
+  </header>
+  <!--header area end-->
+  <!--sidebar start-->
+  <div class="sidebar">
+    <center>
+      <img src="./background/logo.png" class="profile_image" alt="">
+      <h4>KHOA THƯ VIỆN - THÔNG TIN HỌC</h4>
+    </center>
+    <a href="#"><i class="fas fa-desktop"></i><span>Trang chủ</span></a>
+    <div class="item">
+      <a href="#" class="sub-btn"><i class="fa-solid fa-user"></i><span> Giới thiệu </span><span><i
+            class="fa-solid fa-angle-right dropdown"></i></span>
+        <div class="sub-menu">
+          <a href="./lis.html" class="sub-item"><span>Giới thiệu khoa</span></a>
+          <a href="./cocau.html" class="sub-item"><span>Cơ cấu</span></a>
+        </div>
+      </a>
+    </div>
+    <a href="./DOKA.html"><i class="fas fa-table"></i><span>ĐOÀN KHOA</span></a>
+    <a href="./LCH.html"><i class="fas fa-th"></i><span>LIÊN CHI HỘI</span></a>
+    <div class="item">
+      <a href="#" class="sub-btn"> <i class="fa fa-people-group"></i><span>CÂU LẠC BỘ</span><span><i
+            class="fa-solid fa-angle-right dropdown"></i></i></span>
+        <div class="sub-menu">
+          <a href="./prolis.html" class="sub-item"><span>PROLIS</span></a>
+          <a href="./volis.html" class="sub-item"><span>VOLIS</span></a>
+        </div>
+      </a>
+    </div>
+    <a href="./about.html"><i class="fa-solid fa-circle-info"></i><span>CHÚNG TÔI</span></a>
+  </div>
+  <!--sidebar end-->
+  <div class="content">
+    <!--sidebar start-->
+    <div class="container">
+      <div class="slider">
+        <div class="slides">
+          <!--radio button star-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio button end-->
+          <!--slide image star-->
+          <div class="slide first">
+            <img src="./anhtrangchu/trian.png">
+          </div>
+          <div class="slide">
+            <img src="./anhtrangchu/chuyendoi.png">
+          </div>
+          <div class="slide">
+            <img src="./anhtrangchu/cuocsong.png">
+          </div>
+          <div class="slide">
+            <img src="./anhtrangchu/uni.png">
+          </div>
+          <!--slide image end-->
+          <!--Tự chuyển ảnh bắt đầu -->
+          <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--Tự chuyển ảnh kết thúc-->
+        </div>
+        <!--Nút điều hướng-->
+        <div class="nav-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
+    </div>
+    <!--Nội dung dưới-->
+    <div class="container2">
+      <div class="itemss">
+        <img src="./anhtrangchu/trian.png" width="100%">
+        <h1> <a href="https://hcmussh.edu.vn/news/item/21630">Ấm áp chương trình Tri ân người Khai sáng của Khoa Thư viện - Thông tin học - năm 2022 với chủ đề Ánh Dương</a>
+        </h1>
+        <p>Mừng ngày Hiến chương Nhà giáo Việt Nam 20/11, Đoàn-Hội Khoa Thư viện – Thông tin học đã tổ chức chương trình
+          “Tri ân người khai sáng” với chủ đề Ánh Dương vào chiều ngày 19/11/2022 tại Hội trường Văn khoa, Trường ĐH
+          KHXH&NV, ĐHQG TP.HCM - Cơ sở Đinh Tiên Hoàng.</p>
+      </div>
+      <div class=" itemss container3">
+        <div class="box">
+          <img src="./anhtrangchu/chuyendoi.png" alt="" width="100%">
+          <h2 class="h2left"><a href="https://hcmussh.edu.vn/news/item/21311">Nhiều vấn đề học thuật và thực tiễn được đặt ra tại Hội thảo chuyên đề: "Chuyển đổi số và
+            quản lý tri
+            thức trong các tổ chức"</a></h2>
+        </div>
+        <div class="box"><img src="./anhtrangchu/cuocsong.png" alt="" width="100%">
+          <h2 class="h2right"><a href="https://hcmussh.edu.vn/news/item/21107">CUỘC SỐNG MỚI 2022 - A NEW STEP: CHOOSE THE RIGHT - Chương trình sinh hoạt chuyên đề dành
+            cho sinh viên
+            năm nhất</a></h2>
+        </div>
+        <div class="box"><img src="./anhtrangchu/thumoi.png" alt="" width="100%">
+          <h2 class="h2left"><a href="https://hcmussh.edu.vn/news/item/21008">Thư mời Hội thảo Khoa học: Chuyển đổi số và Quản lý tri thức trong các tổ chức</a></h2>
+          </div>
+        <div class="box"><img src="./anhtrangchu/uni.png" alt="" width="100%">
+          <h2 class="h2right2"><a href="https://hcmussh.edu.vn/news/item/21020?">UNIVERSE - Khoa Thư viện - Thông tin học chào đón tân sinh viên khóa 2022</a></h2>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="itemss2"> -->
+    <div class="container3">
+      <div class="box2">
+        <div class="box2_item">
+          <div class="boxphu box2title">
+            <h1 class="homeTitle">THÔNG BÁO</h1>
+          </div>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/22018">[TB] Thông báo kết quả dự kiến học bổng khuyến khích học tập học kỳ 2, năm học 2021-2022
+            08/12/2022</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/21725">[TB] Lịch thi chuyên ngành, học kỳ 1, năm học 2022-2023 (chính thức) 11/12/2022</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/21008">Thư mời Hội thảo Khoa học: Chuyển đổi số và Quản lý tri thức trong các tổ chức 20/10/2022</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/20404">[TB] Về việc đăng ký đề tài nghiên cứu khoa học sinh viên năm học 2022-2023 20/09/2022</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/20236">[NCKHSV] Danh mục ý tưởng nghiên cứu khoa học sinh viên, năm học 2022-2023 17/09/2022</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/20193">Thông báo triển khai tuần sinh hoạt công dân-sinh viên và học phần sinh hoạt định hướng năm học
+            2022-2023 (dành cho sinh viên chính quy khóa tuyển sinh năm 2022) 15/09/2022</a></h4>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="box2_item">
+          <div class="boxphu box2title">
+            <h1 class="homeTitle">HỌC BỔNG - VIỆC LÀM</h1>
+          </div>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/21396">[HB] Thông báo về học bổng của Công ty Bảo hiểm Hanwha Life năm 2022 08/11/2022</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/20479">[HB] Thông báo về chương trình học bổng Hessen, CHLB Đức, năm học 2022-2023 29/09/2022</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/20255">[TD] Trường Quốc tế Canada Việt Nam (BCIS) tuyển dụng Nhân viên thư viện 18/09/2022</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/20190">[TD] Thông báo tuyển dụng chuyên viên thư viện làm việc tại Thư viện trường Đại học Bách Khoa,
+            ĐHQG-HCM 16/09/2022</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/17400">[HB] Công văn về việc chương trình học bổng tại Đại học Kasetsart, Thái Lan 04/05/2022</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/16645">[TD] Chương trình XONE Radio Star 2022 và XONE Radio Tour 2022 04/04/2022</a></h4>
+        </div>
+      </div>
+      <div class="box2">
+        <div class=" box2_item">
+          <div class="boxphu box2title">
+            <h1 class="homeTitle">SINH HOẠT HỌC THUẬT</h1>
+          </div>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/19591">Nhận thức hoạt động thực tập của sinh viên Khoa Thư viện – Thông tin học [Báo cáo chuyên đề:
+            Mai Mỹ Hạnh] 15/08/2022</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/19563">Phương pháp và công cụ giảng dạy trực tuyến [Báo cáo chuyên đề: Đoàn Thị Thu] 01/11/2021</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/19562">Dữ liệu cố vấn học tập - Khóa 2021-2025 [Báo cáo chuyên đề: Trần Đình Anh Huy] 10/10/2021</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/19559">Định hướng lựa chọn thị trường lao động của sinh viên đang học ngành Thông tin - Thư viện [Báo
+            cáo chuyên đề: Nguyễn Phương Duy] 09/09/2021</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/3805">Nghiên cứu về thư viện số ở Việt Nam [Báo cáo chuyên đề: Nguyễn Phương Duy] 18/08/2020</a></h4>
+          <h4 class="h4"><a href="https://hcmussh.edu.vn/news/item/3804">Giáo dục và đào tạo nghề nghiệp Thông tin – Thư viện tại Vương Quốc Anh [Báo cáo chuyên đề: Ngô
+            Thị Huyền] 27/05/2020</a></h4>
+        </div>
+      </div>
+      <div class="box2" >
+        <div class="box2_item">
+          <div class="boxphu box2title">
+            <h1 class="homeTitle"> CHÀO ĐÓN TÂN SINH VIÊN </h1>
+          </div>
+          <div class="video_position">
+          <img class="imgright" src="./video/hello.png" alt="video">
+          <a href="./video/loi chao.mp4">
+          </a>
+        </div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="box2_item">
+          <div class="boxphu box2title">
+            <h1 class="homeTitle">GIỚI THIỆU NGÀNH HỌC</h1>
+          </div>
+          <div class="video_position">
+          <img class="imgleft" src="./video/nganh2.png" alt="video">
+          <a href="./video/nganh.mp4"></a>
+        </div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="box2_item">
+          <div class="boxphu box2title">
+            <h1 class="homeTitle">E-TALKS #1: “BLOCKCHAIN TRONG NỀN KINH TẾ SỐ”</h1>
+          </div>
+          <div class="video_position">
+          <img class="imgright" src="./video/nganh3.png" alt="video">
+          <a href="https://www.youtube.com/watch?v=Qz5d9_Bf1J0"></a>
+        </div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <footer>
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave4"></div>
+          <div class="wave" id="wave5"></div>
+        </div>
+        <ul class="social_icon">
+          <li><a href="https://www.youtube.com/@hcmusshchannel"><i class="fa-brands fa-youtube" style="color: #EA4335;"></i></a></li>
+          <li><a href="https://www.facebook.com/ussh.vnuhcm/"><i class="fa-brands fa-facebook" style="color: #3B5998"></i></a></li>
+        </ul>
+        <ul class="menu">
+          <li><a href="./trangchu.html">Trang chủ</a></li>
+          <li><a href="./lis.html">Giới thiệu Khoa</a</li>
+          <li><a href="./cocau.html">Cơ cấu</a></li>
+          <li><a href="./DOKA.html">Đoàn Khoa</a></li>
+          <li><a href="./LCH.html">Liên Chi Hội</a</li>
+          <li><a href="./prolis.html">PROLIS</a></li>
+          <li><a href="./volis.html">VOLIS</a></li>
+          <li><a href="./about.html">Chúng tôi</a></li>
+        </ul>
+        <p>@2022 Đồ Án Thiết Kế Web | Nhóm 1 </p>
+    </div>
+  </div>
+  </footer>
+  </div>
+</body>
+
+</html>
